@@ -5,6 +5,7 @@ const createNewUser = require("./controllers/createNewUser.js");
 const { searchImages } = require("./controllers/searchImages.js");
 const { sequelize } = require("./models/index.js");
 const { saveImages } = require("./controllers/saveImages.js");
+const { addTagsByPhotoId } = require("./controllers/addTagsByPhotoId.js");
 
 app.use(express.json());
 
@@ -13,6 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.post("/api/users", createNewUser);
 app.get("/api/search/photos", searchImages);
 app.post("/api/photos", saveImages);
+app.post("/api/photos/:photoId/tags", addTagsByPhotoId);
 
 sequelize
   .authenticate()
