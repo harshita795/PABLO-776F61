@@ -6,6 +6,7 @@ const { searchImages } = require("./controllers/searchImages.js");
 const { sequelize } = require("./models/index.js");
 const { saveImages } = require("./controllers/saveImages.js");
 const { addTagsByPhotoId } = require("./controllers/addTagsByPhotoId.js");
+const { searchPhotosByTag } = require("./controllers/searchPhotosByTag.js");
 
 app.use(express.json());
 
@@ -15,6 +16,7 @@ app.post("/api/users", createNewUser);
 app.get("/api/search/photos", searchImages);
 app.post("/api/photos", saveImages);
 app.post("/api/photos/:photoId/tags", addTagsByPhotoId);
+app.get("/api/photos/tag/search", searchPhotosByTag);
 
 sequelize
   .authenticate()
