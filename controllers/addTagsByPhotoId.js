@@ -30,7 +30,9 @@ const addTagsByPhotoId = async (req, res) => {
     findPhoto.tags = updatedTags;
     await findPhoto.save();
 
-    res.status(201).json({ message: "Tags added successfully.", updatedTags });
+    res
+      .status(201)
+      .json({ message: "Tags added successfully.", Tags: updatedTags });
   } catch (error) {
     return res.status(500).json({
       error: "Failed to add the tags to the specific photo.",
