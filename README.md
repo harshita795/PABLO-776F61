@@ -57,3 +57,106 @@ To use this project, follow these steps:
 Example Command:
 ```sh
 curl -X POST http://localhost:3000/api/users -d '{"username": "user1", "email": "user1@example.com"}'
+```
+
+
+
+# 🚀 Picstoria - A Photo Curation App
+
+![Picstoria Banner](https://source.unsplash.com/1600x400/?photography,nature)
+
+📸 *Picstoria* is a powerful photo curation application that allows users to search, save, tag, and manage photos from the Unsplash API. Built with *Node.js, Express, Sequelize, and SQLite*, this project ensures seamless API interactions and efficient database management.
+
+---
+
+## 📂 Project Setup
+
+### 1️⃣ Install Dependencies 📦
+bash
+npm install
+
+
+### 2️⃣ Environment Variables 🌍
+Create a .env file in the root directory and add the following:
+ini
+UNSPLASH_ACCESS_KEY=your_unsplash_access_key
+
+
+### 3️⃣ Database Setup 🛢️
+bash
+npx sequelize-cli db:migrate
+
+
+### 4️⃣ Run the Server 🚀
+bash
+npm start
+
+
+---
+
+## 📜 Features & API Endpoints
+
+### 📝 *1. User Management*
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| POST | /api/users | Create a new user |
+
+### 📷 *2. Photo Search (Unsplash API)*
+| Method | Endpoint | Query Params | Description |
+|--------|---------|--------------|-------------|
+| GET | /api/photos/search | query (e.g., nature) | Search photos from Unsplash |
+
+### 🖼️ *3. Save Photos*
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| POST | /api/photos | Save photos to collections |
+
+### 🔖 *4. Add Tags to Photos*
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| POST | /api/photos/:photoId/tags | Add tags to a photo |
+
+### 🔍 *5. Search Photos by Tags & Sort by Date*
+| Method | Endpoint | Query Params | Description |
+|--------|---------|--------------|-------------|
+| GET | /api/photos/tag/search | tags, sort, userId | Search photos by tag and sort |
+
+### 🕵️‍♂️ *6. Track & Display Search History*
+| Method | Endpoint | Query Params | Description |
+|--------|---------|--------------|-------------|
+| GET | /api/search-history | userId | Retrieve user's search history |
+
+---
+
+## 🛠️ Technologies Used
+
+- *Backend*: Node.js, Express.js
+- *Database*: SQLite, Sequelize ORM
+- *API*: Unsplash API
+- *Testing*: Jest
+
+---
+
+## ✅ Running Tests 🧪
+
+To run unit and integration tests, use:
+bash
+npm test
+
+
+---
+
+## 🌟 Contributing
+Feel free to contribute by submitting pull requests! 😊
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. 📝
+
+---
+
+## 📬 Contact
+📧 Email: your.email@example.com  
+🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
+📷 Unsplash: [@yourprofile](https://unsplash.com/@yourpro
