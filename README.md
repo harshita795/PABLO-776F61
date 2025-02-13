@@ -1,8 +1,8 @@
-# PABLO
+# SNAPBAZAR
 
 ## Overview
 
-PABLO is a JavaScript project designed to manage user data and images. It provides functionalities for creating new users, searching for images, saving images, adding tags to images, and displaying search history.
+SNAPBAZAR is a JavaScript project designed to manage user data and images. It provides functionalities for creating new users, searching for images, saving images, adding tags to images, and displaying search history.
 
 ## Features
 
