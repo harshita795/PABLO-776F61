@@ -1,10 +1,12 @@
-# IMAGESTACK - Turning Clutter into a Gallery
+# 📸 IMAGESTACK - Turning Clutter into a Gallery
 
-## Overview
+## 📖 Overview
 
-📸 IMAGESTACK is a powerful photo curation application that allows users to search, save, tag, and manage photos from the Unsplash API. Built with *Node.js, Express, Sequelize, and SQLite*, this project ensures seamless API interactions and efficient database management.
+**IMAGESTACK** is a powerful **photo organization** application that allows users to **search, save, tag, and manage** photos from the **Unsplash API**. Built with **Node.js, Express, Sequelize, and SQLite**, this project ensures **seamless API interactions** and **efficient database management**.
 
-## Features
+---
+
+## ✨ Features
 
 - **Create New User**: Allows for the creation of a new user with a username and email.
 - **Search Images**: Enables users to search for images.
@@ -13,9 +15,9 @@
 - **Search Images by Tags**: Enables searching for images based on tags.
 - **Display Search History**: Displays the search history of users.
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 🛠️ Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 - Node.js and npm are installed.
@@ -39,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
     npm install
     ```
 
-## Usage
+## 🎯 Usage
 
 To use this project, follow these steps:
 
