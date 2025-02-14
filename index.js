@@ -1,12 +1,12 @@
 const express = require("express");
 require("dotenv").config();
 const app = express();
-const { sequelize } = require("../models/index.js");
+const { sequelize } = require("./models/index.js");
 
 // Import route files
-const userRoutes = require("../routes/userRoutes.js");
-const photoRoutes = require("../routes/photoRoutes.js");
-const historyRoutes = require("../routes/historyRoutes.js");
+const userRoutes = require("./routes/userRoutes.js");
+const photoRoutes = require("./routes/photoRoutes.js");
+const historyRoutes = require("./routes/historyRoutes.js");
 
 app.use(express.json());
 
