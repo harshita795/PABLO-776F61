@@ -1,8 +1,8 @@
-# SNAPBAZAR - A Photo Curation App
+# IMAGESTACK - Turning Clutter into a Gallery
 
 ## Overview
 
-📸 SNAPBAZAR is a powerful photo curation application that allows users to search, save, tag, and manage photos from the Unsplash API. Built with *Node.js, Express, Sequelize, and SQLite*, this project ensures seamless API interactions and efficient database management.
+📸 IMAGESTACK is a powerful photo curation application that allows users to search, save, tag, and manage photos from the Unsplash API. Built with *Node.js, Express, Sequelize, and SQLite*, this project ensures seamless API interactions and efficient database management.
 
 ## Features
 
@@ -27,11 +27,11 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/harshita795/snapbazar.git
+    git clone https://github.com/harshita795/imagestack.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd snapbazar
+    cd imagestack
     ```
 3. Install the dependencies:
 
