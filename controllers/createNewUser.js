@@ -16,7 +16,7 @@ const createNewUser = async (req, res) => {
     if (userExists) {
       return res
         .status(400)
-        .json({ message: `User with this eamil already exists.` });
+        .json({ message: `User with this email already exists.` });
     }
 
     const notValidEmail = isEmailValid(req.body.email);
