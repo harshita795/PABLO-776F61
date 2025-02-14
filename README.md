@@ -1,8 +1,8 @@
-# SNAPBAZAR
+# SNAPBAZAR - A Photo Curation App
 
 ## Overview
 
-SNAPBAZAR is a JavaScript project designed to manage user data and images. It provides functionalities for creating new users, searching for images, saving images, adding tags to images, and displaying search history.
+📸 SNAPBAZAR is a powerful photo curation application that allows users to search, save, tag, and manage photos from the Unsplash API. Built with *Node.js, Express, Sequelize, and SQLite*, this project ensures seamless API interactions and efficient database management.
 
 ## Features
 
@@ -21,15 +21,17 @@ Before you begin, ensure you have met the following requirements:
 - Node.js and npm are installed.
 - Your operating system is Windows, Linux, or Mac.
 
-### Installation
+## 📂 Project Setup
+
+### 1️⃣ Installation 📦
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/harshita795/PABLO-776F61.git
+    git clone https://github.com/harshita795/snapbazar.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd PABLO-776F61
+    cd snapbazar
     ```
 3. Install the dependencies:
 
@@ -58,23 +60,6 @@ Example Command:
 ```sh
 curl -X POST http://localhost:3000/api/users -d '{"username": "user1", "email": "user1@example.com"}'
 ```
-
-
-
-# 🚀 Picstoria - A Photo Curation App
-
-![Picstoria Banner](https://source.unsplash.com/1600x400/?photography,nature)
-
-📸 *Picstoria* is a powerful photo curation application that allows users to search, save, tag, and manage photos from the Unsplash API. Built with *Node.js, Express, Sequelize, and SQLite*, this project ensures seamless API interactions and efficient database management.
-
----
-
-## 📂 Project Setup
-
-### 1️⃣ Install Dependencies 📦
-bash
-npm install
-
 
 ### 2️⃣ Environment Variables 🌍
 Create a .env file in the root directory and add the following:
@@ -153,10 +138,3 @@ Feel free to contribute by submitting pull requests! 😊
 
 ## 📜 License
 This project is licensed under the MIT License. 📝
-
----
-
-## 📬 Contact
-📧 Email: your.email@example.com  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-📷 Unsplash: [@yourprofile](https://unsplash.com/@yourpro
