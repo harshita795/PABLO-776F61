@@ -28,7 +28,7 @@ sequelize
     console.log("database connected");
   })
   .catch((error) => {
-    console.error("Unable to connect to database", error);
+    console.error("Unable to connect to the database", error);
   });
 
 if (process.env.NODE_ENV !== "test") {
