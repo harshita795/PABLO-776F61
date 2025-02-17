@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-**IMAGESTACK** is a powerful **photo organization** application that allows users to **search, save, tag, and manage** photos from the **Unsplash API**. Built with **Node.js, Express, Sequelize, and SQLite**, this project ensures **seamless API interactions** and **efficient database management**.
+**IMAGESTACK** is a powerful **photo organization** application that allows users to **search, save, tag, and manage** photos from the **Unsplash API**. Built with **Node.js, Express, Sequelize, and PostgreSQL**, this project ensures **seamless API interactions** and **efficient database management**.
 
 ---
 
